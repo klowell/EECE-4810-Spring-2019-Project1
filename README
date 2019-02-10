@@ -1,0 +1,29 @@
+The following README file will outline instructions on how to properly execute this assignment.
+
+1. Open "Terminal" application in a Linux/Unix environment.
+2. Using change directory commands, access the directory the project is saved in.
+3. Compile the test program files to make the executables for the main program to access.
+	a. Type "make test1" then press the Enter key.
+	b. Type "make test2" then press the Enter key.
+	c. Type "make test3" then press the Enter key.
+	d. Type "make test4" then press the Enter key.
+	e. Type "make test5" then press the Enter key.
+4. Compile the main project file to make the executable.
+	a. Type "make Project1" then press the Enter key.
+5. Choose step 6 or step 7:
+6. To run executable with no additional arguments:
+	a. Type "./Project1" then press the Enter key.
+	b. Proceed to step 8
+7. To run executable with additonal arguments:
+	a. Type "./Project1 " then the argument you wish to pass.
+		ex. "./Project1 6"
+			i. This assignment will ignore any arguments passed the first additional argument.
+			ii. It will also ignore any non-integer argument.
+			iii.  Integers less than or equal to zero will be ignored.
+			iv. Integers above 25 will also be ignored.
+			v. In the event of a rejected argument, the assignment will output "Invalid argument."
+	b. Press the Enter key when finished with typing additional arguments.
+	c. Proceed to step 8.
+8. Repeat step 5 as necessary.
+9. Remove the object and executable files when finished executing the assignment.
+	a. Type "make clean" then press the Enter key.
