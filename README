@@ -1,4 +1,12 @@
-The following README file outlines instructions on how to properly execute this assignment.
+Name: Kristopher Lowell
+
+The .zip archive should contain three files total:
+	1. Project1.c	- the main source file
+	2. Makefile	- the makefile to properly make the assignment's executables
+	3. README	- the file explaining the contents of the assignment as well as how to execute the assignment
+
+
+The following outlines instructions on how to properly execute this assignment:
 
 1. Open "Terminal" application in a Linux/Unix environment.
 2. Using change directory commands, access the directory the project is saved in.
